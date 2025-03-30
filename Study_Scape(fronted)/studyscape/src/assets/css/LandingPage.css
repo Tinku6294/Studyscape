@@ -1,0 +1,57 @@
+/* ✅ Notice Bar Styles */
+.notice-bar {
+    background-color: #6a0dad; /* Dark Purple */
+    color: white;
+    padding: 8px 0;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  /* ✅ Marquee Text */
+  .marquee-text {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  
+  /* ✅ Main Content */
+  .main-content {
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .main-content h1 {
+    font-size: 36px;
+    color: #333;
+  }
+  
+  .main-content p {
+    font-size: 18px;
+    color: #555;
+  }
+  /* Section Title Bar with Glassmorphic Effect */
+.section-title-bar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+/* Glassmorphic Title Style */
+.glassmorphic-title {
+  background: rgba(128, 0, 128, 0.2); /* Purple with 20% opacity */
+  backdrop-filter: blur(10px); /* Blur Effect */
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18); /* Border Effect */
+  color: #fff; /* White text */
+  border-radius: 8px;
+  padding: 0.5rem 1.5rem;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); /* Shadow Effect */
+}
+
+/* Purple Line */
+.section-title-bar .line {
+  flex-grow: 1;
+  border-bottom: 2px solid #a855f7; /* Purple Line */
+}
